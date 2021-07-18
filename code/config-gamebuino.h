@@ -1,0 +1,2 @@
+#define DISPLAY_MODE DISPLAY_MODE_INDEX
+#define FOLDER_NAME "DemonGirls"
