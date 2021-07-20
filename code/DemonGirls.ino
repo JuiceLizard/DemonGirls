@@ -184,7 +184,7 @@ void drawClap() {
   if((clapCounter > 6) && (clapCounter < 18)) {
     gb.display.drawImage(0, 0, DEMON80x32, 160, 64);
     gb.display.drawImage(0, 64, GIRLS80x32, 160, 64);
-    if(gamestate == 2) {
+    if(gamestate != 4) {
       gamestate = 1;
     }
     if(clapCounter == 10) {
