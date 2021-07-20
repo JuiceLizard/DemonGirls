@@ -184,7 +184,9 @@ void drawClap() {
   if((clapCounter > 6) && (clapCounter < 18)) {
     gb.display.drawImage(0, 0, DEMON80x32, 160, 64);
     gb.display.drawImage(0, 64, GIRLS80x32, 160, 64);
-    gamestate = 1;
+    if(gamestate == 2) {
+      gamestate = 1;
+    }
     if(clapCounter == 10) {
       changeLevel();
       heroKicks = false;
@@ -1936,6 +1938,10 @@ void drawEnd() {
   gb.display.setColor(GRAY);
   gb.display.setCursorX(3);
   gb.display.print("   www.juicelizard.com");
+  
+  if(clap == true){
+     drawClap();
+  }
 }
 
 void loop() {
