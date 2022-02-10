@@ -148,48 +148,7 @@ const char level9[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
   {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
   {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
 
-/*
 // level 10 Beelzebub
-const char level10[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
-{ {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
-  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
-  {'M', 'S', 'M', 'M', 'S', ' ', 'B', 'M', 'B', 'B', 'M'},
-  {'M', ' ', ' ', ' ', 'T', 'T', 'T', 'M', ' ', '@', 'M'},
-  {'M', 'L', 'M', 'M', 'T', 'i', 'T', 'M', ' ', 'M', 'M'},
-  {'M', ' ', 'B', 'M', 'T', 'T', 'T', 'S', ' ', 'B', 'M'},
-  {'M', ' ', 'D', 'M', 'S', ' ', ' ', ' ', ' ', 'S', 'M'},
-  {'M', ' ', ' ', 'M', 'B', 'K', 'B', 'B', ' ', 'B', 'M'},
-  {'M', 'M', 'M', 'M', 'B', 'S', 'B', 'B', ' ', 'M', 'M'},
-  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
-
-// level 10 Beelzebub
-const char level10[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
-{ {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
-  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
-  {'M', ' ', 'B', ' ', ' ', 'B', ' ', 'M', ' ', ' ', 'M'},
-  {'M', 'S', ' ', ' ', ' ', 'i', '@', 'M', ' ', ' ', 'M'},
-  {'M', 'k', 'M', 'M', 'M', ' ', 'M', 'M', ' ', ' ', 'M'},
-  {'M', 'l', 'B', ' ', ' ', 'B', 'L', ' ', ' ', ' ', 'M'},
-  {'M', ' ', 'B', 'T', ' ', ' ', 'M', 'D', ' ', ' ', 'M'},
-  {'M', ' ', 'B', 'M', 'M', 'M', 'M', ' ', ' ', ' ', 'M'},
-  {'M', 'M', 'M', ' ', ' ', ' ', ' ', ' ', ' ', 'M', 'M'},
-  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
-
-
-// level 10
-const char level10[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
-{ {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
-  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
-  {'M', 'M', ' ', ' ', ' ', 'M', ' ', ' ', ' ', 'M', 'M'},
-  {'M', 'M', ' ', ' ', ' ', ' ', ' ', ' ', 'D', 'M', 'M'},
-  {'M', 'M', 'M', ' ', ' ', 'M', ' ', ' ', 'M', 'M', 'M'},
-  {'M', 'M', 'M', ' ', ' ', 'M', ' ', ' ', 'M', 'M', 'M'},
-  {'M', 'M', ' ', ' ', ' ', ' ', ' ', ' ', '@', 'M', 'M'},
-  {'M', 'M', ' ', ' ', ' ', 'M', ' ', ' ', ' ', 'M', 'M'},
-  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
-  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
-*/
-
 const char level10[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
 { {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
   {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
@@ -205,6 +164,120 @@ const char level10[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
 
 // Here are stored the sprites display of the walls
 char walls[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
+{ {'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
+  {'a', 'a', 'a', 'a', 'a', 'a', 'c', 'c', 'a', 'a', 'a'},
+  {'a', 'a', 'a', 'c', 'c', 'g', ' ', ' ', 'b', 'a', 'a'},
+  {'a', 'a', 'e', ' ', ' ', ' ', ' ', ' ', 'b', 'a', 'a'},
+  {'a', 'a', 'g', ' ', ' ', ' ', ' ', 'j', 'a', 'a', 'a'},
+  {'a', 'e', ' ', ' ', 'l', 'k', 'k', 'c', 'a', 'a', 'a'},
+  {'a', 'e', ' ', ' ', ' ', ' ', ' ', ' ', 'd', 'a', 'a'},
+  {'a', 'e', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'b', 'a'},
+  {'a', 'a', 'i', 'i', 'i', 'i', 'i', 'i', 'i', 'a', 'a'},
+  {'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'} };
+
+// Heaven or White Yogurt Factory
+
+// '@' player, '+' player on target, 'M' wall, ' ' empty box,
+// '$' yogurt, '*' yogurt on target, '.' target
+
+// Here are stored all the levels of the White Yogurt Factory.
+// We copy this data to the previous table
+// when we change the level or reset the current level.
+
+// level 11 PRIDE (with yellow triangle)
+const char level11[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
+{ {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', ' ', ' ', ' ', 'M', 'M', 'M', 'M'},
+  {'M', 'M', ' ', ' ', '.', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', ' ', ' ', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', ' ', ' ', 'M', 'M', 'M', '.', '@', 'M', 'M'},
+  {'M', 'M', ' ', '$', '$', ' ', ' ', '$', ' ', 'M', 'M'},
+  {'M', 'M', 'M', ' ', ' ', ' ', ' ', '.', ' ', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
+
+// level 12 GREED
+const char level12[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
+{ {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', ' ', '@', '.', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', ' ', '$', '$', '$', ' ', 'M', 'M', 'M'},
+  {'M', 'M', 'M', ' ', ' ', ' ', '.', '.', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
+
+// level 13 LUST (with pink circle)
+const char level13[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
+{ {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', ' ', ' ', ' ', ' ', '.', ' ', 'M', 'M'},
+  {'M', 'M', 'M', '$', '$', 'M', ' ', '@', ' ', 'M', 'M'},
+  {'M', 'M', ' ', ' ', ' ', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', ' ', 'M', ' ', 'M', 'M', 'M', 'M', ' ', 'M'},
+  {'M', 'M', ' ', '$', ' ', '.', ' ', '.', 'M', ' ', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', ' ', ' ', ' ', ' ', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
+
+// level 14 ANGER
+const char level14[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
+{ {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', ' ', ' ', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', '@', ' ', ' ', '$', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', '.', ' ', ' ', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', ' ', '$', ' ', ' ', 'M', 'M'},
+  {'M', 'M', 'M', 'M', ' ', ' ', ' ', '$', ' ', 'M', 'M'},
+  {'M', 'M', '.', ' ', ' ', ' ', '.', ' ', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
+
+// level 15 GLUTTONY (with blue square)
+const char level15[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
+{ {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', ' ', ' ', ' ', 'M', 'M'},
+  {'M', 'M', ' ', ' ', ' ', ' ', '$', ' ', ' ', 'M', 'M'},
+  {'M', 'M', ' ', 'M', '$', 'M', '*', 'M', ' ', 'M', 'M'},
+  {'M', 'M', ' ', '.', '@', '.', '.', '$', ' ', 'M', 'M'},
+  {'M', 'M', ' ', 'M', '$', 'M', ' ', 'M', 'M', 'M', 'M'},
+  {'M', 'M', ' ', ' ', ' ', 'M', '.', ' ', ' ', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
+
+// level 16 ENVY
+const char level16[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
+{ {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', '.', 'M', '.', ' ', '$', ' ', 'M', 'M'},
+  {'M', 'M', 'M', '@', 'M', 'M', 'M', ' ', ' ', 'M', 'M'},
+  {'M', 'M', ' ', '$', ' ', 'M', ' ', '*', ' ', 'M', 'M'},
+  {'M', 'M', ' ', ' ', '$', '$', '.', '$', '.', 'M', 'M'},
+  {'M', 'M', ' ', ' ', '.', ' ', ' ', '$', ' ', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', '.', ' ', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
+
+// level 17 SLOTH
+const char level17[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
+{ {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', ' ', ' ', 'M', 'M', 'M', 'M', ' ', ' ', ' ', 'M'},
+  {'M', ' ', ' ', ' ', '$', ' ', ' ', ' ', ' ', ' ', 'M'},
+  {'M', ' ', '$', ' ', 'M', 'M', 'M', ' ', ' ', 'M', 'M'},
+  {'M', 'M', ' ', 'M', ' ', '.', 'M', 'M', ' ', ' ', 'M'},
+  {'M', ' ', '$', ' ', '$', ' ', 'M', 'M', ' ', ' ', 'M'},
+  {'M', '.', '.', '.', ' ', '@', 'M', 'M', ' ', ' ', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'},
+  {'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M'} };
+
+// Here are stored the sprites display of the clouds
+// (White Yogurt Factory walls)
+char clouds[NB_ROWS_LEVELS][NB_COLUMNS_LEVELS] =
 { {'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a'},
   {'a', 'a', 'a', 'a', 'a', 'a', 'c', 'c', 'a', 'a', 'a'},
   {'a', 'a', 'a', 'c', 'c', 'g', ' ', ' ', 'b', 'a', 'a'},
