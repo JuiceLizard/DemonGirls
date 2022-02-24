@@ -11,7 +11,8 @@ This is the story of the Helltaker, a guy who passes deadly trials to date horny
 
 The original game was made by VanRipper (free on Steam: https://store.steampowered.com/app/1289310/Helltaker/)
 
-« Demon Girls » t-shirts are available.
+« Demon Girls » t-shirts are available here: https://juicelizard.myspreadshop.fr/
+
 New levels in Heaven are now available.
 
 You can make your own levels or graphics by modifying the source code.
