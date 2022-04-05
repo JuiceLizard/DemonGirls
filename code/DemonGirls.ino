@@ -4162,7 +4162,7 @@ void lyrics() {
       break;
     case 11:
       gb.display.setCursorX(2);
-      gb.display.print("And the whole world in not\n");
+      gb.display.print("And the whole world is not\n");
       gb.display.setCursorX(2);
       gb.display.print("       Tasty enough\n");
       gb.display.setCursorX(2);
@@ -4251,12 +4251,12 @@ void lyrics() {
       break;
     case 20:
       gb.display.setCursorX(2);
-      gb.display.print("And the whole world in not\n");
+      gb.display.print("And the whole world is not\n");
       gb.display.setCursorX(2);
       gb.display.print("       tasty enough\n");
       gb.display.setColor(GRAY);
       gb.display.setCursorX(2);
-      gb.display.print("And the whole world in not\n");
+      gb.display.print("And the whole world is not\n");
       gb.display.setCursorX(2);
       gb.display.print("       tasty enough");
       break;
