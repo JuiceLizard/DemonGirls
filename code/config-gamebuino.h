@@ -1,4 +1,0 @@
-#define DISPLAY_MODE DISPLAY_MODE_INDEX
-#define FOLDER_NAME "DemonGirls"
-#define SOUND_CHANNELS 1
-#define SOUND_FREQ 44100
